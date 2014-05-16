@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<config>
+  <sections>
+	<payment>            
+		<groups>
+			<gestpay translate="label comment" module="gestpay">
+		  
+				<label>Gestpay</label>
+				<frontend_type>text</frontend_type>
+				<sort_order>0</sort_order>
+				<show_in_default>1</show_in_default>
+				<show_in_website>1</show_in_website>
+				<show_in_store>1</show_in_store>
+				<model>gestpay/standard</model>
+				<fields>                        
+					 <active translate="label">
+						<label>Enabled</label>
+						<frontend_type>select</frontend_type>
+						<source_model>adminhtml/system_config_source_yesno</source_model>
+						<sort_order>1</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+					</active>
+					<title translate="label">
+						<label>Title</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>2</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+					</title>
+					<name translate="label">
+						<label>Method Name</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>3</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+					</name>
+					<description translate="label">
+						<label>Description</label>
+						<frontend_type>textarea</frontend_type>
+						<sort_order>76</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+					</description>
+					<sort_order translate="label">
+						<label>Sort Order</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>99</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+					</sort_order>
+					<service_url translate="label">
+						<label>Url servizio</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>100</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+					</service_url>
+					<shop_login translate="label">
+						<label>Shop Login</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>101</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+					</shop_login>
+					<urlok translate="label">
+						<label>urlOk</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>105</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+					</urlok>
+					<urlko translate="label">
+						<label>urlKo</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>106</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+					</urlko>
+					<order_status translate="label">
+                        <label>Stato nuovo ordine</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_order_status</source_model>
+                        <sort_order>108</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>0</show_in_store>
+                    </order_status>
+				</fields>
+				
+		   </gestpay>
+		</groups>
+	</payment>
+  </sections>
+</config>
